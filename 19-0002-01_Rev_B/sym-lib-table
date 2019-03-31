@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name DesignData-rescue)(type Legacy)(uri ${KIPRJMOD}/DesignData-rescue.lib)(options "")(descr ""))
+  (lib (name user_arduino)(type Legacy)(uri /home/norbert/NextCloud_DTS/Entwicklung/KiCAD/library_user/user_arduino.lib)(options "")(descr ""))
+  (lib (name user_diskret)(type Legacy)(uri /home/norbert/NextCloud_DTS/Entwicklung/KiCAD/library_user/user_diskret.lib)(options "")(descr ""))
+  (lib (name user_linear)(type Legacy)(uri /home/norbert/NextCloud_DTS/Entwicklung/KiCAD/library_user/user_linear.lib)(options "")(descr ""))
+  (lib (name user_mosfet)(type Legacy)(uri /home/norbert/NextCloud_DTS/Entwicklung/KiCAD/library_user/user_mosfet.lib)(options "")(descr ""))
+)

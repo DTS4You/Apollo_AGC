@@ -1,0 +1,27 @@
+Drill report for /home/norbert/NextCloud-DTS/Entwicklung/KiCAD/Projekte/19-0002-01/DesignData.kicad_pcb
+Created on Mo 18 Mär 2019 09:29:26 CET
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DesignData-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,30mm  0,012"  (368 holes)
+    T2  0,40mm  0,016"  (2 holes)
+    T3  0,80mm  0,031"  (444 holes)
+    T4  0,90mm  0,035"  (458 holes)
+    T5  1,20mm  0,047"  (76 holes)
+
+    Total plated holes count 1348
+
+
+Drill file 'DesignData-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3,20mm  0,126"  (8 holes)
+
+    Total unplated holes count 8

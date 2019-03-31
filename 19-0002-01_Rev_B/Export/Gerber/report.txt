@@ -1,0 +1,20 @@
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-F.Cu.gtl" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-B.Cu.gbl" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-F.SilkS.gto" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-B.SilkS.gbo" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-F.Mask.gts" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-B.Mask.gbs" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-Dwgs.User.gbr" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-Cmts.User.gbr" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-Edge.Cuts.gm1" created.
+Create Gerber job file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-job.gbrjob"
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-F.Cu.gtl" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-B.Cu.gbl" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-F.SilkS.gto" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-B.SilkS.gbo" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-F.Mask.gts" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-B.Mask.gbs" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-Dwgs.User.gbr" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-Cmts.User.gbr" created.
+Plot file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-Edge.Cuts.gm1" created.
+Create Gerber job file "/home/norbert/NextCloud_DTS/Entwicklung/KiCAD/Projekte/19-0002-01_Rev_B/Export/Gerber/DesignData-job.gbrjob"

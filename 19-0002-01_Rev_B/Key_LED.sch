@@ -1,0 +1,2278 @@
+EESchema Schematic File Version 4
+LIBS:DesignData-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5C8BA6DA
+P 1100 1700
+AR Path="/5C8BA6DA" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BA6DA" Ref="D601"  Part="1" 
+F 0 "D601" H 1250 1600 50  0000 R CNN
+F 1 "LED" V 1047 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1100 1700 50  0001 C CNN
+F 3 "~" H 1100 1700 50  0001 C CNN
+	1    1100 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BA6E1
+P 1100 2100
+AR Path="/5C8BA6E1" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BA6E1" Ref="D602"  Part="1" 
+F 0 "D602" H 1250 2000 50  0000 R CNN
+F 1 "LED" V 1047 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1100 2100 50  0001 C CNN
+F 3 "~" H 1100 2100 50  0001 C CNN
+	1    1100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8BA6E8
+P 1200 1300
+AR Path="/5C8BA6E8" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8BA6E8" Ref="R601"  Part="1" 
+F 0 "R601" H 1270 1346 50  0000 L CNN
+F 1 "120R" H 1270 1255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1130 1300 50  0001 C CNN
+F 3 "~" H 1200 1300 50  0001 C CNN
+	1    1200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BA6EF
+P 1300 1700
+AR Path="/5C8BA6EF" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BA6EF" Ref="D603"  Part="1" 
+F 0 "D603" H 1450 1600 50  0000 R CNN
+F 1 "LED" V 1247 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1300 1700 50  0001 C CNN
+F 3 "~" H 1300 1700 50  0001 C CNN
+	1    1300 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BA6F6
+P 1300 2100
+AR Path="/5C8BA6F6" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BA6F6" Ref="D604"  Part="1" 
+F 0 "D604" H 1450 2000 50  0000 R CNN
+F 1 "LED" V 1247 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1300 2100 50  0001 C CNN
+F 3 "~" H 1300 2100 50  0001 C CNN
+	1    1300 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 1850 1100 1950
+Wire Wire Line
+	1300 1850 1300 1950
+Wire Wire Line
+	1100 2250 1100 2350
+Wire Wire Line
+	1300 2250 1300 2350
+Wire Wire Line
+	1100 2350 1200 2350
+Wire Wire Line
+	1200 1500 1100 1500
+Wire Wire Line
+	1100 1500 1100 1550
+Wire Wire Line
+	1200 1450 1200 1500
+Wire Wire Line
+	1200 1500 1300 1500
+Wire Wire Line
+	1300 1500 1300 1550
+Connection ~ 1200 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5C8BA708
+P 1200 2450
+AR Path="/5C8BA708" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8BA708" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 1200 2200 50  0001 C CNN
+F 1 "GND" H 1205 2277 50  0000 C CNN
+F 2 "" H 1200 2450 50  0001 C CNN
+F 3 "" H 1200 2450 50  0001 C CNN
+	1    1200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2450 1200 2350
+Connection ~ 1200 2350
+Wire Wire Line
+	1200 2350 1300 2350
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8BA711
+P 1200 1100
+AR Path="/5C8BA711" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8BA711" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 1200 950 50  0001 C CNN
+F 1 "VCC" H 1217 1273 50  0000 C CNN
+F 2 "" H 1200 1100 50  0001 C CNN
+F 3 "" H 1200 1100 50  0001 C CNN
+	1    1200 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1100 1200 1150
+$Comp
+L Device:LED D?
+U 1 1 5C8BC70A
+P 1600 1700
+AR Path="/5C8BC70A" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BC70A" Ref="D611"  Part="1" 
+F 0 "D611" H 1750 1600 50  0000 R CNN
+F 1 "LED" V 1547 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1600 1700 50  0001 C CNN
+F 3 "~" H 1600 1700 50  0001 C CNN
+	1    1600 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BC710
+P 1600 2100
+AR Path="/5C8BC710" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BC710" Ref="D612"  Part="1" 
+F 0 "D612" H 1750 2000 50  0000 R CNN
+F 1 "LED" V 1547 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1600 2100 50  0001 C CNN
+F 3 "~" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8BC716
+P 1700 1300
+AR Path="/5C8BC716" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8BC716" Ref="R611"  Part="1" 
+F 0 "R611" H 1770 1346 50  0000 L CNN
+F 1 "120R" H 1770 1255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 1300 50  0001 C CNN
+F 3 "~" H 1700 1300 50  0001 C CNN
+	1    1700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BC71C
+P 1800 1700
+AR Path="/5C8BC71C" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BC71C" Ref="D613"  Part="1" 
+F 0 "D613" H 1950 1600 50  0000 R CNN
+F 1 "LED" V 1747 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1800 1700 50  0001 C CNN
+F 3 "~" H 1800 1700 50  0001 C CNN
+	1    1800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BC722
+P 1800 2100
+AR Path="/5C8BC722" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BC722" Ref="D614"  Part="1" 
+F 0 "D614" H 1950 2000 50  0000 R CNN
+F 1 "LED" V 1747 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1800 2100 50  0001 C CNN
+F 3 "~" H 1800 2100 50  0001 C CNN
+	1    1800 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 1850 1600 1950
+Wire Wire Line
+	1800 1850 1800 1950
+Wire Wire Line
+	1600 2250 1600 2350
+Wire Wire Line
+	1800 2250 1800 2350
+Wire Wire Line
+	1600 2350 1700 2350
+Wire Wire Line
+	1700 1500 1600 1500
+Wire Wire Line
+	1600 1500 1600 1550
+Wire Wire Line
+	1700 1450 1700 1500
+Wire Wire Line
+	1700 1500 1800 1500
+Wire Wire Line
+	1800 1500 1800 1550
+Connection ~ 1700 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5C8BC733
+P 1700 2450
+AR Path="/5C8BC733" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8BC733" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 1700 2200 50  0001 C CNN
+F 1 "GND" H 1705 2277 50  0000 C CNN
+F 2 "" H 1700 2450 50  0001 C CNN
+F 3 "" H 1700 2450 50  0001 C CNN
+	1    1700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2450 1700 2350
+Connection ~ 1700 2350
+Wire Wire Line
+	1700 2350 1800 2350
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8BC73C
+P 1700 1100
+AR Path="/5C8BC73C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8BC73C" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 1700 950 50  0001 C CNN
+F 1 "VCC" H 1717 1273 50  0000 C CNN
+F 2 "" H 1700 1100 50  0001 C CNN
+F 3 "" H 1700 1100 50  0001 C CNN
+	1    1700 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1100 1700 1150
+$Comp
+L Device:LED D?
+U 1 1 5C8BDED0
+P 2100 1700
+AR Path="/5C8BDED0" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BDED0" Ref="D621"  Part="1" 
+F 0 "D621" H 2250 1600 50  0000 R CNN
+F 1 "LED" V 2047 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2100 1700 50  0001 C CNN
+F 3 "~" H 2100 1700 50  0001 C CNN
+	1    2100 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BDED6
+P 2100 2100
+AR Path="/5C8BDED6" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BDED6" Ref="D622"  Part="1" 
+F 0 "D622" H 2250 2000 50  0000 R CNN
+F 1 "LED" V 2047 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2100 2100 50  0001 C CNN
+F 3 "~" H 2100 2100 50  0001 C CNN
+	1    2100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8BDEDC
+P 2200 1300
+AR Path="/5C8BDEDC" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8BDEDC" Ref="R621"  Part="1" 
+F 0 "R621" H 2270 1346 50  0000 L CNN
+F 1 "120R" H 2270 1255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 1300 50  0001 C CNN
+F 3 "~" H 2200 1300 50  0001 C CNN
+	1    2200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BDEE2
+P 2300 1700
+AR Path="/5C8BDEE2" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BDEE2" Ref="D623"  Part="1" 
+F 0 "D623" H 2450 1600 50  0000 R CNN
+F 1 "LED" V 2247 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2300 1700 50  0001 C CNN
+F 3 "~" H 2300 1700 50  0001 C CNN
+	1    2300 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BDEE8
+P 2300 2100
+AR Path="/5C8BDEE8" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BDEE8" Ref="D624"  Part="1" 
+F 0 "D624" H 2450 2000 50  0000 R CNN
+F 1 "LED" V 2247 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2300 2100 50  0001 C CNN
+F 3 "~" H 2300 2100 50  0001 C CNN
+	1    2300 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 1850 2100 1950
+Wire Wire Line
+	2300 1850 2300 1950
+Wire Wire Line
+	2100 2250 2100 2350
+Wire Wire Line
+	2300 2250 2300 2350
+Wire Wire Line
+	2100 2350 2200 2350
+Wire Wire Line
+	2200 1500 2100 1500
+Wire Wire Line
+	2100 1500 2100 1550
+Wire Wire Line
+	2200 1450 2200 1500
+Wire Wire Line
+	2200 1500 2300 1500
+Wire Wire Line
+	2300 1500 2300 1550
+Connection ~ 2200 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5C8BDEF9
+P 2200 2450
+AR Path="/5C8BDEF9" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8BDEF9" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 2200 2200 50  0001 C CNN
+F 1 "GND" H 2205 2277 50  0000 C CNN
+F 2 "" H 2200 2450 50  0001 C CNN
+F 3 "" H 2200 2450 50  0001 C CNN
+	1    2200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2450 2200 2350
+Connection ~ 2200 2350
+Wire Wire Line
+	2200 2350 2300 2350
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8BDF02
+P 2200 1100
+AR Path="/5C8BDF02" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8BDF02" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 2200 950 50  0001 C CNN
+F 1 "VCC" H 2217 1273 50  0000 C CNN
+F 2 "" H 2200 1100 50  0001 C CNN
+F 3 "" H 2200 1100 50  0001 C CNN
+	1    2200 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1100 2200 1150
+$Comp
+L Device:LED D?
+U 1 1 5C8BF5F7
+P 2600 1700
+AR Path="/5C8BF5F7" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BF5F7" Ref="D631"  Part="1" 
+F 0 "D631" H 2750 1600 50  0000 R CNN
+F 1 "LED" V 2547 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2600 1700 50  0001 C CNN
+F 3 "~" H 2600 1700 50  0001 C CNN
+	1    2600 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BF5FD
+P 2600 2100
+AR Path="/5C8BF5FD" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BF5FD" Ref="D632"  Part="1" 
+F 0 "D632" H 2750 2000 50  0000 R CNN
+F 1 "LED" V 2547 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2600 2100 50  0001 C CNN
+F 3 "~" H 2600 2100 50  0001 C CNN
+	1    2600 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8BF603
+P 2700 1300
+AR Path="/5C8BF603" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8BF603" Ref="R631"  Part="1" 
+F 0 "R631" H 2770 1346 50  0000 L CNN
+F 1 "120R" H 2770 1255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 1300 50  0001 C CNN
+F 3 "~" H 2700 1300 50  0001 C CNN
+	1    2700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BF609
+P 2800 1700
+AR Path="/5C8BF609" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BF609" Ref="D633"  Part="1" 
+F 0 "D633" H 2950 1600 50  0000 R CNN
+F 1 "LED" V 2747 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2800 1700 50  0001 C CNN
+F 3 "~" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BF60F
+P 2800 2100
+AR Path="/5C8BF60F" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8BF60F" Ref="D634"  Part="1" 
+F 0 "D634" H 2950 2000 50  0000 R CNN
+F 1 "LED" V 2747 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2800 2100 50  0001 C CNN
+F 3 "~" H 2800 2100 50  0001 C CNN
+	1    2800 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 1850 2600 1950
+Wire Wire Line
+	2800 1850 2800 1950
+Wire Wire Line
+	2600 2250 2600 2350
+Wire Wire Line
+	2800 2250 2800 2350
+Wire Wire Line
+	2600 2350 2700 2350
+Wire Wire Line
+	2700 1500 2600 1500
+Wire Wire Line
+	2600 1500 2600 1550
+Wire Wire Line
+	2700 1450 2700 1500
+Wire Wire Line
+	2700 1500 2800 1500
+Wire Wire Line
+	2800 1500 2800 1550
+Connection ~ 2700 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5C8BF620
+P 2700 2450
+AR Path="/5C8BF620" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8BF620" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 2700 2200 50  0001 C CNN
+F 1 "GND" H 2705 2277 50  0000 C CNN
+F 2 "" H 2700 2450 50  0001 C CNN
+F 3 "" H 2700 2450 50  0001 C CNN
+	1    2700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2450 2700 2350
+Connection ~ 2700 2350
+Wire Wire Line
+	2700 2350 2800 2350
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8BF629
+P 2700 1100
+AR Path="/5C8BF629" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8BF629" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 2700 950 50  0001 C CNN
+F 1 "VCC" H 2717 1273 50  0000 C CNN
+F 2 "" H 2700 1100 50  0001 C CNN
+F 3 "" H 2700 1100 50  0001 C CNN
+	1    2700 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1100 2700 1150
+$Comp
+L Device:LED D?
+U 1 1 5C8C0BFE
+P 3100 1700
+AR Path="/5C8C0BFE" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8C0BFE" Ref="D641"  Part="1" 
+F 0 "D641" H 3250 1600 50  0000 R CNN
+F 1 "LED" V 3047 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3100 1700 50  0001 C CNN
+F 3 "~" H 3100 1700 50  0001 C CNN
+	1    3100 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8C0C04
+P 3100 2100
+AR Path="/5C8C0C04" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8C0C04" Ref="D642"  Part="1" 
+F 0 "D642" H 3250 2000 50  0000 R CNN
+F 1 "LED" V 3047 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3100 2100 50  0001 C CNN
+F 3 "~" H 3100 2100 50  0001 C CNN
+	1    3100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8C0C0A
+P 3200 1300
+AR Path="/5C8C0C0A" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8C0C0A" Ref="R641"  Part="1" 
+F 0 "R641" H 3270 1346 50  0000 L CNN
+F 1 "120R" H 3270 1255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3130 1300 50  0001 C CNN
+F 3 "~" H 3200 1300 50  0001 C CNN
+	1    3200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8C0C10
+P 3300 1700
+AR Path="/5C8C0C10" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8C0C10" Ref="D643"  Part="1" 
+F 0 "D643" H 3450 1600 50  0000 R CNN
+F 1 "LED" V 3247 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3300 1700 50  0001 C CNN
+F 3 "~" H 3300 1700 50  0001 C CNN
+	1    3300 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8C0C16
+P 3300 2100
+AR Path="/5C8C0C16" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8C0C16" Ref="D644"  Part="1" 
+F 0 "D644" H 3450 2000 50  0000 R CNN
+F 1 "LED" V 3247 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3300 2100 50  0001 C CNN
+F 3 "~" H 3300 2100 50  0001 C CNN
+	1    3300 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 1850 3100 1950
+Wire Wire Line
+	3300 1850 3300 1950
+Wire Wire Line
+	3100 2250 3100 2350
+Wire Wire Line
+	3300 2250 3300 2350
+Wire Wire Line
+	3100 2350 3200 2350
+Wire Wire Line
+	3200 1500 3100 1500
+Wire Wire Line
+	3100 1500 3100 1550
+Wire Wire Line
+	3200 1450 3200 1500
+Wire Wire Line
+	3200 1500 3300 1500
+Wire Wire Line
+	3300 1500 3300 1550
+Connection ~ 3200 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5C8C0C27
+P 3200 2450
+AR Path="/5C8C0C27" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8C0C27" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 3200 2200 50  0001 C CNN
+F 1 "GND" H 3205 2277 50  0000 C CNN
+F 2 "" H 3200 2450 50  0001 C CNN
+F 3 "" H 3200 2450 50  0001 C CNN
+	1    3200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2450 3200 2350
+Connection ~ 3200 2350
+Wire Wire Line
+	3200 2350 3300 2350
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8C0C30
+P 3200 1100
+AR Path="/5C8C0C30" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8C0C30" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 3200 950 50  0001 C CNN
+F 1 "VCC" H 3217 1273 50  0000 C CNN
+F 2 "" H 3200 1100 50  0001 C CNN
+F 3 "" H 3200 1100 50  0001 C CNN
+	1    3200 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1100 3200 1150
+$Comp
+L Device:LED D?
+U 1 1 5C8C27B2
+P 3600 1700
+AR Path="/5C8C27B2" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8C27B2" Ref="D651"  Part="1" 
+F 0 "D651" H 3750 1600 50  0000 R CNN
+F 1 "LED" V 3547 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3600 1700 50  0001 C CNN
+F 3 "~" H 3600 1700 50  0001 C CNN
+	1    3600 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8C27B8
+P 3600 2100
+AR Path="/5C8C27B8" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8C27B8" Ref="D652"  Part="1" 
+F 0 "D652" H 3750 2000 50  0000 R CNN
+F 1 "LED" V 3547 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3600 2100 50  0001 C CNN
+F 3 "~" H 3600 2100 50  0001 C CNN
+	1    3600 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8C27BE
+P 3700 1300
+AR Path="/5C8C27BE" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8C27BE" Ref="R651"  Part="1" 
+F 0 "R651" H 3770 1346 50  0000 L CNN
+F 1 "120R" H 3770 1255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3630 1300 50  0001 C CNN
+F 3 "~" H 3700 1300 50  0001 C CNN
+	1    3700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8C27C4
+P 3800 1700
+AR Path="/5C8C27C4" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8C27C4" Ref="D653"  Part="1" 
+F 0 "D653" H 3950 1600 50  0000 R CNN
+F 1 "LED" V 3747 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3800 1700 50  0001 C CNN
+F 3 "~" H 3800 1700 50  0001 C CNN
+	1    3800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8C27CA
+P 3800 2100
+AR Path="/5C8C27CA" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8C27CA" Ref="D654"  Part="1" 
+F 0 "D654" H 3950 2000 50  0000 R CNN
+F 1 "LED" V 3747 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3800 2100 50  0001 C CNN
+F 3 "~" H 3800 2100 50  0001 C CNN
+	1    3800 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 1850 3600 1950
+Wire Wire Line
+	3800 1850 3800 1950
+Wire Wire Line
+	3600 2250 3600 2350
+Wire Wire Line
+	3800 2250 3800 2350
+Wire Wire Line
+	3600 2350 3700 2350
+Wire Wire Line
+	3700 1500 3600 1500
+Wire Wire Line
+	3600 1500 3600 1550
+Wire Wire Line
+	3700 1450 3700 1500
+Wire Wire Line
+	3700 1500 3800 1500
+Wire Wire Line
+	3800 1500 3800 1550
+Connection ~ 3700 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5C8C27DB
+P 3700 2450
+AR Path="/5C8C27DB" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8C27DB" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 3700 2200 50  0001 C CNN
+F 1 "GND" H 3705 2277 50  0000 C CNN
+F 2 "" H 3700 2450 50  0001 C CNN
+F 3 "" H 3700 2450 50  0001 C CNN
+	1    3700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2450 3700 2350
+Connection ~ 3700 2350
+Wire Wire Line
+	3700 2350 3800 2350
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8C27E4
+P 3700 1100
+AR Path="/5C8C27E4" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8C27E4" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 3700 950 50  0001 C CNN
+F 1 "VCC" H 3717 1273 50  0000 C CNN
+F 2 "" H 3700 1100 50  0001 C CNN
+F 3 "" H 3700 1100 50  0001 C CNN
+	1    3700 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1100 3700 1150
+$Comp
+L Device:LED D?
+U 1 1 5C8CA64A
+P 4100 1700
+AR Path="/5C8CA64A" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CA64A" Ref="D661"  Part="1" 
+F 0 "D661" H 4250 1600 50  0000 R CNN
+F 1 "LED" V 4047 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 4100 1700 50  0001 C CNN
+F 3 "~" H 4100 1700 50  0001 C CNN
+	1    4100 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CA650
+P 4100 2100
+AR Path="/5C8CA650" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CA650" Ref="D662"  Part="1" 
+F 0 "D662" H 4250 2000 50  0000 R CNN
+F 1 "LED" V 4047 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 4100 2100 50  0001 C CNN
+F 3 "~" H 4100 2100 50  0001 C CNN
+	1    4100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8CA656
+P 4200 1300
+AR Path="/5C8CA656" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8CA656" Ref="R661"  Part="1" 
+F 0 "R661" H 4270 1346 50  0000 L CNN
+F 1 "120R" H 4270 1255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4130 1300 50  0001 C CNN
+F 3 "~" H 4200 1300 50  0001 C CNN
+	1    4200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CA65C
+P 4300 1700
+AR Path="/5C8CA65C" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CA65C" Ref="D663"  Part="1" 
+F 0 "D663" H 4450 1600 50  0000 R CNN
+F 1 "LED" V 4247 1582 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 4300 1700 50  0001 C CNN
+F 3 "~" H 4300 1700 50  0001 C CNN
+	1    4300 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CA662
+P 4300 2100
+AR Path="/5C8CA662" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CA662" Ref="D664"  Part="1" 
+F 0 "D664" H 4450 2000 50  0000 R CNN
+F 1 "LED" V 4247 1982 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 4300 2100 50  0001 C CNN
+F 3 "~" H 4300 2100 50  0001 C CNN
+	1    4300 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 1850 4100 1950
+Wire Wire Line
+	4300 1850 4300 1950
+Wire Wire Line
+	4100 2250 4100 2350
+Wire Wire Line
+	4300 2250 4300 2350
+Wire Wire Line
+	4100 2350 4200 2350
+Wire Wire Line
+	4200 1500 4100 1500
+Wire Wire Line
+	4100 1500 4100 1550
+Wire Wire Line
+	4200 1450 4200 1500
+Wire Wire Line
+	4200 1500 4300 1500
+Wire Wire Line
+	4300 1500 4300 1550
+Connection ~ 4200 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5C8CA673
+P 4200 2450
+AR Path="/5C8CA673" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CA673" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 4200 2200 50  0001 C CNN
+F 1 "GND" H 4205 2277 50  0000 C CNN
+F 2 "" H 4200 2450 50  0001 C CNN
+F 3 "" H 4200 2450 50  0001 C CNN
+	1    4200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2450 4200 2350
+Connection ~ 4200 2350
+Wire Wire Line
+	4200 2350 4300 2350
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8CA67C
+P 4200 1100
+AR Path="/5C8CA67C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CA67C" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 4200 950 50  0001 C CNN
+F 1 "VCC" H 4217 1273 50  0000 C CNN
+F 2 "" H 4200 1100 50  0001 C CNN
+F 3 "" H 4200 1100 50  0001 C CNN
+	1    4200 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1100 4200 1150
+$Comp
+L Device:LED D?
+U 1 1 5C8CF6F6
+P 1100 3750
+AR Path="/5C8CF6F6" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF6F6" Ref="D701"  Part="1" 
+F 0 "D701" H 1250 3650 50  0000 R CNN
+F 1 "LED" V 1047 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1100 3750 50  0001 C CNN
+F 3 "~" H 1100 3750 50  0001 C CNN
+	1    1100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF6FC
+P 1100 4150
+AR Path="/5C8CF6FC" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF6FC" Ref="D702"  Part="1" 
+F 0 "D702" H 1250 4050 50  0000 R CNN
+F 1 "LED" V 1047 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1100 4150 50  0001 C CNN
+F 3 "~" H 1100 4150 50  0001 C CNN
+	1    1100 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8CF702
+P 1200 3350
+AR Path="/5C8CF702" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8CF702" Ref="R701"  Part="1" 
+F 0 "R701" H 1270 3396 50  0000 L CNN
+F 1 "120R" H 1270 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1130 3350 50  0001 C CNN
+F 3 "~" H 1200 3350 50  0001 C CNN
+	1    1200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF708
+P 1300 3750
+AR Path="/5C8CF708" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF708" Ref="D703"  Part="1" 
+F 0 "D703" H 1450 3650 50  0000 R CNN
+F 1 "LED" V 1247 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1300 3750 50  0001 C CNN
+F 3 "~" H 1300 3750 50  0001 C CNN
+	1    1300 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF70E
+P 1300 4150
+AR Path="/5C8CF70E" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF70E" Ref="D704"  Part="1" 
+F 0 "D704" H 1450 4050 50  0000 R CNN
+F 1 "LED" V 1247 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1300 4150 50  0001 C CNN
+F 3 "~" H 1300 4150 50  0001 C CNN
+	1    1300 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 3900 1100 4000
+Wire Wire Line
+	1300 3900 1300 4000
+Wire Wire Line
+	1100 4300 1100 4400
+Wire Wire Line
+	1300 4300 1300 4400
+Wire Wire Line
+	1100 4400 1200 4400
+Wire Wire Line
+	1200 3550 1100 3550
+Wire Wire Line
+	1100 3550 1100 3600
+Wire Wire Line
+	1200 3500 1200 3550
+Wire Wire Line
+	1200 3550 1300 3550
+Wire Wire Line
+	1300 3550 1300 3600
+Connection ~ 1200 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5C8CF71F
+P 1200 4500
+AR Path="/5C8CF71F" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF71F" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 1200 4250 50  0001 C CNN
+F 1 "GND" H 1205 4327 50  0000 C CNN
+F 2 "" H 1200 4500 50  0001 C CNN
+F 3 "" H 1200 4500 50  0001 C CNN
+	1    1200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 4500 1200 4400
+Connection ~ 1200 4400
+Wire Wire Line
+	1200 4400 1300 4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8CF728
+P 1200 3150
+AR Path="/5C8CF728" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF728" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 1200 3000 50  0001 C CNN
+F 1 "VCC" H 1217 3323 50  0000 C CNN
+F 2 "" H 1200 3150 50  0001 C CNN
+F 3 "" H 1200 3150 50  0001 C CNN
+	1    1200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 3150 1200 3200
+$Comp
+L Device:LED D?
+U 1 1 5C8CF72F
+P 1600 3750
+AR Path="/5C8CF72F" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF72F" Ref="D711"  Part="1" 
+F 0 "D711" H 1750 3650 50  0000 R CNN
+F 1 "LED" V 1547 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1600 3750 50  0001 C CNN
+F 3 "~" H 1600 3750 50  0001 C CNN
+	1    1600 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF735
+P 1600 4150
+AR Path="/5C8CF735" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF735" Ref="D712"  Part="1" 
+F 0 "D712" H 1750 4050 50  0000 R CNN
+F 1 "LED" V 1547 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1600 4150 50  0001 C CNN
+F 3 "~" H 1600 4150 50  0001 C CNN
+	1    1600 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8CF73B
+P 1700 3350
+AR Path="/5C8CF73B" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8CF73B" Ref="R711"  Part="1" 
+F 0 "R711" H 1770 3396 50  0000 L CNN
+F 1 "120R" H 1770 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 3350 50  0001 C CNN
+F 3 "~" H 1700 3350 50  0001 C CNN
+	1    1700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF741
+P 1800 3750
+AR Path="/5C8CF741" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF741" Ref="D713"  Part="1" 
+F 0 "D713" H 1950 3650 50  0000 R CNN
+F 1 "LED" V 1747 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1800 3750 50  0001 C CNN
+F 3 "~" H 1800 3750 50  0001 C CNN
+	1    1800 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF747
+P 1800 4150
+AR Path="/5C8CF747" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF747" Ref="D714"  Part="1" 
+F 0 "D714" H 1950 4050 50  0000 R CNN
+F 1 "LED" V 1747 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1800 4150 50  0001 C CNN
+F 3 "~" H 1800 4150 50  0001 C CNN
+	1    1800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 3900 1600 4000
+Wire Wire Line
+	1800 3900 1800 4000
+Wire Wire Line
+	1600 4300 1600 4400
+Wire Wire Line
+	1800 4300 1800 4400
+Wire Wire Line
+	1600 4400 1700 4400
+Wire Wire Line
+	1700 3550 1600 3550
+Wire Wire Line
+	1600 3550 1600 3600
+Wire Wire Line
+	1700 3500 1700 3550
+Wire Wire Line
+	1700 3550 1800 3550
+Wire Wire Line
+	1800 3550 1800 3600
+Connection ~ 1700 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5C8CF758
+P 1700 4500
+AR Path="/5C8CF758" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF758" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 1700 4250 50  0001 C CNN
+F 1 "GND" H 1705 4327 50  0000 C CNN
+F 2 "" H 1700 4500 50  0001 C CNN
+F 3 "" H 1700 4500 50  0001 C CNN
+	1    1700 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4500 1700 4400
+Connection ~ 1700 4400
+Wire Wire Line
+	1700 4400 1800 4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8CF761
+P 1700 3150
+AR Path="/5C8CF761" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF761" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 1700 3000 50  0001 C CNN
+F 1 "VCC" H 1717 3323 50  0000 C CNN
+F 2 "" H 1700 3150 50  0001 C CNN
+F 3 "" H 1700 3150 50  0001 C CNN
+	1    1700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3150 1700 3200
+$Comp
+L Device:LED D?
+U 1 1 5C8CF768
+P 2100 3750
+AR Path="/5C8CF768" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF768" Ref="D721"  Part="1" 
+F 0 "D721" H 2250 3650 50  0000 R CNN
+F 1 "LED" V 2047 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2100 3750 50  0001 C CNN
+F 3 "~" H 2100 3750 50  0001 C CNN
+	1    2100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF76E
+P 2100 4150
+AR Path="/5C8CF76E" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF76E" Ref="D722"  Part="1" 
+F 0 "D722" H 2250 4050 50  0000 R CNN
+F 1 "LED" V 2047 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2100 4150 50  0001 C CNN
+F 3 "~" H 2100 4150 50  0001 C CNN
+	1    2100 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8CF774
+P 2200 3350
+AR Path="/5C8CF774" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8CF774" Ref="R721"  Part="1" 
+F 0 "R721" H 2270 3396 50  0000 L CNN
+F 1 "120R" H 2270 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 3350 50  0001 C CNN
+F 3 "~" H 2200 3350 50  0001 C CNN
+	1    2200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF77A
+P 2300 3750
+AR Path="/5C8CF77A" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF77A" Ref="D723"  Part="1" 
+F 0 "D723" H 2450 3650 50  0000 R CNN
+F 1 "LED" V 2247 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2300 3750 50  0001 C CNN
+F 3 "~" H 2300 3750 50  0001 C CNN
+	1    2300 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF780
+P 2300 4150
+AR Path="/5C8CF780" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF780" Ref="D724"  Part="1" 
+F 0 "D724" H 2450 4050 50  0000 R CNN
+F 1 "LED" V 2247 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2300 4150 50  0001 C CNN
+F 3 "~" H 2300 4150 50  0001 C CNN
+	1    2300 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 3900 2100 4000
+Wire Wire Line
+	2300 3900 2300 4000
+Wire Wire Line
+	2100 4300 2100 4400
+Wire Wire Line
+	2300 4300 2300 4400
+Wire Wire Line
+	2100 4400 2200 4400
+Wire Wire Line
+	2200 3550 2100 3550
+Wire Wire Line
+	2100 3550 2100 3600
+Wire Wire Line
+	2200 3500 2200 3550
+Wire Wire Line
+	2200 3550 2300 3550
+Wire Wire Line
+	2300 3550 2300 3600
+Connection ~ 2200 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5C8CF791
+P 2200 4500
+AR Path="/5C8CF791" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF791" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 2200 4250 50  0001 C CNN
+F 1 "GND" H 2205 4327 50  0000 C CNN
+F 2 "" H 2200 4500 50  0001 C CNN
+F 3 "" H 2200 4500 50  0001 C CNN
+	1    2200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4500 2200 4400
+Connection ~ 2200 4400
+Wire Wire Line
+	2200 4400 2300 4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8CF79A
+P 2200 3150
+AR Path="/5C8CF79A" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF79A" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 2200 3000 50  0001 C CNN
+F 1 "VCC" H 2217 3323 50  0000 C CNN
+F 2 "" H 2200 3150 50  0001 C CNN
+F 3 "" H 2200 3150 50  0001 C CNN
+	1    2200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3150 2200 3200
+$Comp
+L Device:LED D?
+U 1 1 5C8CF7A1
+P 2600 3750
+AR Path="/5C8CF7A1" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7A1" Ref="D731"  Part="1" 
+F 0 "D731" H 2750 3650 50  0000 R CNN
+F 1 "LED" V 2547 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2600 3750 50  0001 C CNN
+F 3 "~" H 2600 3750 50  0001 C CNN
+	1    2600 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF7A7
+P 2600 4150
+AR Path="/5C8CF7A7" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7A7" Ref="D732"  Part="1" 
+F 0 "D732" H 2750 4050 50  0000 R CNN
+F 1 "LED" V 2547 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2600 4150 50  0001 C CNN
+F 3 "~" H 2600 4150 50  0001 C CNN
+	1    2600 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8CF7AD
+P 2700 3350
+AR Path="/5C8CF7AD" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7AD" Ref="R731"  Part="1" 
+F 0 "R731" H 2770 3396 50  0000 L CNN
+F 1 "120R" H 2770 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 3350 50  0001 C CNN
+F 3 "~" H 2700 3350 50  0001 C CNN
+	1    2700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF7B3
+P 2800 3750
+AR Path="/5C8CF7B3" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7B3" Ref="D733"  Part="1" 
+F 0 "D733" H 2950 3650 50  0000 R CNN
+F 1 "LED" V 2747 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2800 3750 50  0001 C CNN
+F 3 "~" H 2800 3750 50  0001 C CNN
+	1    2800 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF7B9
+P 2800 4150
+AR Path="/5C8CF7B9" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7B9" Ref="D734"  Part="1" 
+F 0 "D734" H 2950 4050 50  0000 R CNN
+F 1 "LED" V 2747 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2800 4150 50  0001 C CNN
+F 3 "~" H 2800 4150 50  0001 C CNN
+	1    2800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 3900 2600 4000
+Wire Wire Line
+	2800 3900 2800 4000
+Wire Wire Line
+	2600 4300 2600 4400
+Wire Wire Line
+	2800 4300 2800 4400
+Wire Wire Line
+	2600 4400 2700 4400
+Wire Wire Line
+	2700 3550 2600 3550
+Wire Wire Line
+	2600 3550 2600 3600
+Wire Wire Line
+	2700 3500 2700 3550
+Wire Wire Line
+	2700 3550 2800 3550
+Wire Wire Line
+	2800 3550 2800 3600
+Connection ~ 2700 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5C8CF7CA
+P 2700 4500
+AR Path="/5C8CF7CA" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7CA" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 2700 4250 50  0001 C CNN
+F 1 "GND" H 2705 4327 50  0000 C CNN
+F 2 "" H 2700 4500 50  0001 C CNN
+F 3 "" H 2700 4500 50  0001 C CNN
+	1    2700 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4500 2700 4400
+Connection ~ 2700 4400
+Wire Wire Line
+	2700 4400 2800 4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8CF7D3
+P 2700 3150
+AR Path="/5C8CF7D3" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7D3" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 2700 3000 50  0001 C CNN
+F 1 "VCC" H 2717 3323 50  0000 C CNN
+F 2 "" H 2700 3150 50  0001 C CNN
+F 3 "" H 2700 3150 50  0001 C CNN
+	1    2700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3150 2700 3200
+$Comp
+L Device:LED D?
+U 1 1 5C8CF7DA
+P 3100 3750
+AR Path="/5C8CF7DA" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7DA" Ref="D741"  Part="1" 
+F 0 "D741" H 3250 3650 50  0000 R CNN
+F 1 "LED" V 3047 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3100 3750 50  0001 C CNN
+F 3 "~" H 3100 3750 50  0001 C CNN
+	1    3100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF7E0
+P 3100 4150
+AR Path="/5C8CF7E0" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7E0" Ref="D742"  Part="1" 
+F 0 "D742" H 3250 4050 50  0000 R CNN
+F 1 "LED" V 3047 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3100 4150 50  0001 C CNN
+F 3 "~" H 3100 4150 50  0001 C CNN
+	1    3100 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8CF7E6
+P 3200 3350
+AR Path="/5C8CF7E6" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7E6" Ref="R741"  Part="1" 
+F 0 "R741" H 3270 3396 50  0000 L CNN
+F 1 "120R" H 3270 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3130 3350 50  0001 C CNN
+F 3 "~" H 3200 3350 50  0001 C CNN
+	1    3200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF7EC
+P 3300 3750
+AR Path="/5C8CF7EC" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7EC" Ref="D743"  Part="1" 
+F 0 "D743" H 3450 3650 50  0000 R CNN
+F 1 "LED" V 3247 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3300 3750 50  0001 C CNN
+F 3 "~" H 3300 3750 50  0001 C CNN
+	1    3300 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF7F2
+P 3300 4150
+AR Path="/5C8CF7F2" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF7F2" Ref="D744"  Part="1" 
+F 0 "D744" H 3450 4050 50  0000 R CNN
+F 1 "LED" V 3247 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3300 4150 50  0001 C CNN
+F 3 "~" H 3300 4150 50  0001 C CNN
+	1    3300 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 3900 3100 4000
+Wire Wire Line
+	3300 3900 3300 4000
+Wire Wire Line
+	3100 4300 3100 4400
+Wire Wire Line
+	3300 4300 3300 4400
+Wire Wire Line
+	3100 4400 3200 4400
+Wire Wire Line
+	3200 3550 3100 3550
+Wire Wire Line
+	3100 3550 3100 3600
+Wire Wire Line
+	3200 3500 3200 3550
+Wire Wire Line
+	3200 3550 3300 3550
+Wire Wire Line
+	3300 3550 3300 3600
+Connection ~ 3200 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5C8CF803
+P 3200 4500
+AR Path="/5C8CF803" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF803" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 3200 4250 50  0001 C CNN
+F 1 "GND" H 3205 4327 50  0000 C CNN
+F 2 "" H 3200 4500 50  0001 C CNN
+F 3 "" H 3200 4500 50  0001 C CNN
+	1    3200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4500 3200 4400
+Connection ~ 3200 4400
+Wire Wire Line
+	3200 4400 3300 4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8CF80C
+P 3200 3150
+AR Path="/5C8CF80C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF80C" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 3200 3000 50  0001 C CNN
+F 1 "VCC" H 3217 3323 50  0000 C CNN
+F 2 "" H 3200 3150 50  0001 C CNN
+F 3 "" H 3200 3150 50  0001 C CNN
+	1    3200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3150 3200 3200
+$Comp
+L Device:LED D?
+U 1 1 5C8CF813
+P 3600 3750
+AR Path="/5C8CF813" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF813" Ref="D751"  Part="1" 
+F 0 "D751" H 3750 3650 50  0000 R CNN
+F 1 "LED" V 3547 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3600 3750 50  0001 C CNN
+F 3 "~" H 3600 3750 50  0001 C CNN
+	1    3600 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF819
+P 3600 4150
+AR Path="/5C8CF819" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF819" Ref="D752"  Part="1" 
+F 0 "D752" H 3750 4050 50  0000 R CNN
+F 1 "LED" V 3547 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3600 4150 50  0001 C CNN
+F 3 "~" H 3600 4150 50  0001 C CNN
+	1    3600 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8CF81F
+P 3700 3350
+AR Path="/5C8CF81F" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8CF81F" Ref="R751"  Part="1" 
+F 0 "R751" H 3770 3396 50  0000 L CNN
+F 1 "120R" H 3770 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3630 3350 50  0001 C CNN
+F 3 "~" H 3700 3350 50  0001 C CNN
+	1    3700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF825
+P 3800 3750
+AR Path="/5C8CF825" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF825" Ref="D753"  Part="1" 
+F 0 "D753" H 3950 3650 50  0000 R CNN
+F 1 "LED" V 3747 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3800 3750 50  0001 C CNN
+F 3 "~" H 3800 3750 50  0001 C CNN
+	1    3800 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF82B
+P 3800 4150
+AR Path="/5C8CF82B" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF82B" Ref="D754"  Part="1" 
+F 0 "D754" H 3950 4050 50  0000 R CNN
+F 1 "LED" V 3747 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3800 4150 50  0001 C CNN
+F 3 "~" H 3800 4150 50  0001 C CNN
+	1    3800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 3900 3600 4000
+Wire Wire Line
+	3800 3900 3800 4000
+Wire Wire Line
+	3600 4300 3600 4400
+Wire Wire Line
+	3800 4300 3800 4400
+Wire Wire Line
+	3600 4400 3700 4400
+Wire Wire Line
+	3700 3550 3600 3550
+Wire Wire Line
+	3600 3550 3600 3600
+Wire Wire Line
+	3700 3500 3700 3550
+Wire Wire Line
+	3700 3550 3800 3550
+Wire Wire Line
+	3800 3550 3800 3600
+Connection ~ 3700 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5C8CF83C
+P 3700 4500
+AR Path="/5C8CF83C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF83C" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 3700 4250 50  0001 C CNN
+F 1 "GND" H 3705 4327 50  0000 C CNN
+F 2 "" H 3700 4500 50  0001 C CNN
+F 3 "" H 3700 4500 50  0001 C CNN
+	1    3700 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4500 3700 4400
+Connection ~ 3700 4400
+Wire Wire Line
+	3700 4400 3800 4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8CF845
+P 3700 3150
+AR Path="/5C8CF845" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF845" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 3700 3000 50  0001 C CNN
+F 1 "VCC" H 3717 3323 50  0000 C CNN
+F 2 "" H 3700 3150 50  0001 C CNN
+F 3 "" H 3700 3150 50  0001 C CNN
+	1    3700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3150 3700 3200
+$Comp
+L Device:LED D?
+U 1 1 5C8CF84C
+P 4100 3750
+AR Path="/5C8CF84C" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF84C" Ref="D761"  Part="1" 
+F 0 "D761" H 4250 3650 50  0000 R CNN
+F 1 "LED" V 4047 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 4100 3750 50  0001 C CNN
+F 3 "~" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF852
+P 4100 4150
+AR Path="/5C8CF852" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF852" Ref="D762"  Part="1" 
+F 0 "D762" H 4250 4050 50  0000 R CNN
+F 1 "LED" V 4047 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 4100 4150 50  0001 C CNN
+F 3 "~" H 4100 4150 50  0001 C CNN
+	1    4100 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8CF858
+P 4200 3350
+AR Path="/5C8CF858" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8CF858" Ref="R761"  Part="1" 
+F 0 "R761" H 4270 3396 50  0000 L CNN
+F 1 "120R" H 4270 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4130 3350 50  0001 C CNN
+F 3 "~" H 4200 3350 50  0001 C CNN
+	1    4200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF85E
+P 4300 3750
+AR Path="/5C8CF85E" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF85E" Ref="D763"  Part="1" 
+F 0 "D763" H 4450 3650 50  0000 R CNN
+F 1 "LED" V 4247 3632 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 4300 3750 50  0001 C CNN
+F 3 "~" H 4300 3750 50  0001 C CNN
+	1    4300 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8CF864
+P 4300 4150
+AR Path="/5C8CF864" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8CF864" Ref="D764"  Part="1" 
+F 0 "D764" H 4450 4050 50  0000 R CNN
+F 1 "LED" V 4247 4032 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 4300 4150 50  0001 C CNN
+F 3 "~" H 4300 4150 50  0001 C CNN
+	1    4300 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 3900 4100 4000
+Wire Wire Line
+	4300 3900 4300 4000
+Wire Wire Line
+	4100 4300 4100 4400
+Wire Wire Line
+	4300 4300 4300 4400
+Wire Wire Line
+	4100 4400 4200 4400
+Wire Wire Line
+	4200 3550 4100 3550
+Wire Wire Line
+	4100 3550 4100 3600
+Wire Wire Line
+	4200 3500 4200 3550
+Wire Wire Line
+	4200 3550 4300 3550
+Wire Wire Line
+	4300 3550 4300 3600
+Connection ~ 4200 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5C8CF875
+P 4200 4500
+AR Path="/5C8CF875" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF875" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 4200 4250 50  0001 C CNN
+F 1 "GND" H 4205 4327 50  0000 C CNN
+F 2 "" H 4200 4500 50  0001 C CNN
+F 3 "" H 4200 4500 50  0001 C CNN
+	1    4200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4500 4200 4400
+Connection ~ 4200 4400
+Wire Wire Line
+	4200 4400 4300 4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8CF87E
+P 4200 3150
+AR Path="/5C8CF87E" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8CF87E" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 4200 3000 50  0001 C CNN
+F 1 "VCC" H 4217 3323 50  0000 C CNN
+F 2 "" H 4200 3150 50  0001 C CNN
+F 3 "" H 4200 3150 50  0001 C CNN
+	1    4200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3150 4200 3200
+$Comp
+L Device:LED D?
+U 1 1 5C8DC0FF
+P 1600 5850
+AR Path="/5C8DC0FF" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC0FF" Ref="D811"  Part="1" 
+F 0 "D811" H 1750 5750 50  0000 R CNN
+F 1 "LED" V 1547 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1600 5850 50  0001 C CNN
+F 3 "~" H 1600 5850 50  0001 C CNN
+	1    1600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC105
+P 1600 6250
+AR Path="/5C8DC105" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC105" Ref="D812"  Part="1" 
+F 0 "D812" H 1750 6150 50  0000 R CNN
+F 1 "LED" V 1547 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1600 6250 50  0001 C CNN
+F 3 "~" H 1600 6250 50  0001 C CNN
+	1    1600 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8DC10B
+P 1700 5450
+AR Path="/5C8DC10B" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8DC10B" Ref="R811"  Part="1" 
+F 0 "R811" H 1770 5496 50  0000 L CNN
+F 1 "120R" H 1770 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 5450 50  0001 C CNN
+F 3 "~" H 1700 5450 50  0001 C CNN
+	1    1700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC111
+P 1800 5850
+AR Path="/5C8DC111" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC111" Ref="D813"  Part="1" 
+F 0 "D813" H 1950 5750 50  0000 R CNN
+F 1 "LED" V 1747 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1800 5850 50  0001 C CNN
+F 3 "~" H 1800 5850 50  0001 C CNN
+	1    1800 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC117
+P 1800 6250
+AR Path="/5C8DC117" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC117" Ref="D814"  Part="1" 
+F 0 "D814" H 1950 6150 50  0000 R CNN
+F 1 "LED" V 1747 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 1800 6250 50  0001 C CNN
+F 3 "~" H 1800 6250 50  0001 C CNN
+	1    1800 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 6000 1600 6100
+Wire Wire Line
+	1800 6000 1800 6100
+Wire Wire Line
+	1600 6400 1600 6500
+Wire Wire Line
+	1800 6400 1800 6500
+Wire Wire Line
+	1600 6500 1700 6500
+Wire Wire Line
+	1700 5650 1600 5650
+Wire Wire Line
+	1600 5650 1600 5700
+Wire Wire Line
+	1700 5600 1700 5650
+Wire Wire Line
+	1700 5650 1800 5650
+Wire Wire Line
+	1800 5650 1800 5700
+Connection ~ 1700 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5C8DC128
+P 1700 6600
+AR Path="/5C8DC128" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC128" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 1700 6350 50  0001 C CNN
+F 1 "GND" H 1705 6427 50  0000 C CNN
+F 2 "" H 1700 6600 50  0001 C CNN
+F 3 "" H 1700 6600 50  0001 C CNN
+	1    1700 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6600 1700 6500
+Connection ~ 1700 6500
+Wire Wire Line
+	1700 6500 1800 6500
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8DC131
+P 1700 5250
+AR Path="/5C8DC131" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC131" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 1700 5100 50  0001 C CNN
+F 1 "VCC" H 1717 5423 50  0000 C CNN
+F 2 "" H 1700 5250 50  0001 C CNN
+F 3 "" H 1700 5250 50  0001 C CNN
+	1    1700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5250 1700 5300
+$Comp
+L Device:LED D?
+U 1 1 5C8DC138
+P 2100 5850
+AR Path="/5C8DC138" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC138" Ref="D821"  Part="1" 
+F 0 "D821" H 2250 5750 50  0000 R CNN
+F 1 "LED" V 2047 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2100 5850 50  0001 C CNN
+F 3 "~" H 2100 5850 50  0001 C CNN
+	1    2100 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC13E
+P 2100 6250
+AR Path="/5C8DC13E" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC13E" Ref="D822"  Part="1" 
+F 0 "D822" H 2250 6150 50  0000 R CNN
+F 1 "LED" V 2047 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2100 6250 50  0001 C CNN
+F 3 "~" H 2100 6250 50  0001 C CNN
+	1    2100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8DC144
+P 2200 5450
+AR Path="/5C8DC144" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8DC144" Ref="R821"  Part="1" 
+F 0 "R821" H 2270 5496 50  0000 L CNN
+F 1 "120R" H 2270 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 5450 50  0001 C CNN
+F 3 "~" H 2200 5450 50  0001 C CNN
+	1    2200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC14A
+P 2300 5850
+AR Path="/5C8DC14A" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC14A" Ref="D823"  Part="1" 
+F 0 "D823" H 2450 5750 50  0000 R CNN
+F 1 "LED" V 2247 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2300 5850 50  0001 C CNN
+F 3 "~" H 2300 5850 50  0001 C CNN
+	1    2300 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC150
+P 2300 6250
+AR Path="/5C8DC150" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC150" Ref="D824"  Part="1" 
+F 0 "D824" H 2450 6150 50  0000 R CNN
+F 1 "LED" V 2247 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2300 6250 50  0001 C CNN
+F 3 "~" H 2300 6250 50  0001 C CNN
+	1    2300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 6000 2100 6100
+Wire Wire Line
+	2300 6000 2300 6100
+Wire Wire Line
+	2100 6400 2100 6500
+Wire Wire Line
+	2300 6400 2300 6500
+Wire Wire Line
+	2100 6500 2200 6500
+Wire Wire Line
+	2200 5650 2100 5650
+Wire Wire Line
+	2100 5650 2100 5700
+Wire Wire Line
+	2200 5600 2200 5650
+Wire Wire Line
+	2200 5650 2300 5650
+Wire Wire Line
+	2300 5650 2300 5700
+Connection ~ 2200 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5C8DC161
+P 2200 6600
+AR Path="/5C8DC161" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC161" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 2200 6350 50  0001 C CNN
+F 1 "GND" H 2205 6427 50  0000 C CNN
+F 2 "" H 2200 6600 50  0001 C CNN
+F 3 "" H 2200 6600 50  0001 C CNN
+	1    2200 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6600 2200 6500
+Connection ~ 2200 6500
+Wire Wire Line
+	2200 6500 2300 6500
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8DC16A
+P 2200 5250
+AR Path="/5C8DC16A" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC16A" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 2200 5100 50  0001 C CNN
+F 1 "VCC" H 2217 5423 50  0000 C CNN
+F 2 "" H 2200 5250 50  0001 C CNN
+F 3 "" H 2200 5250 50  0001 C CNN
+	1    2200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5250 2200 5300
+$Comp
+L Device:LED D?
+U 1 1 5C8DC171
+P 2600 5850
+AR Path="/5C8DC171" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC171" Ref="D831"  Part="1" 
+F 0 "D831" H 2750 5750 50  0000 R CNN
+F 1 "LED" V 2547 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2600 5850 50  0001 C CNN
+F 3 "~" H 2600 5850 50  0001 C CNN
+	1    2600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC177
+P 2600 6250
+AR Path="/5C8DC177" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC177" Ref="D832"  Part="1" 
+F 0 "D832" H 2750 6150 50  0000 R CNN
+F 1 "LED" V 2547 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2600 6250 50  0001 C CNN
+F 3 "~" H 2600 6250 50  0001 C CNN
+	1    2600 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8DC17D
+P 2700 5450
+AR Path="/5C8DC17D" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8DC17D" Ref="R831"  Part="1" 
+F 0 "R831" H 2770 5496 50  0000 L CNN
+F 1 "120R" H 2770 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 5450 50  0001 C CNN
+F 3 "~" H 2700 5450 50  0001 C CNN
+	1    2700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC183
+P 2800 5850
+AR Path="/5C8DC183" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC183" Ref="D833"  Part="1" 
+F 0 "D833" H 2950 5750 50  0000 R CNN
+F 1 "LED" V 2747 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2800 5850 50  0001 C CNN
+F 3 "~" H 2800 5850 50  0001 C CNN
+	1    2800 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC189
+P 2800 6250
+AR Path="/5C8DC189" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC189" Ref="D834"  Part="1" 
+F 0 "D834" H 2950 6150 50  0000 R CNN
+F 1 "LED" V 2747 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 2800 6250 50  0001 C CNN
+F 3 "~" H 2800 6250 50  0001 C CNN
+	1    2800 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 6000 2600 6100
+Wire Wire Line
+	2800 6000 2800 6100
+Wire Wire Line
+	2600 6400 2600 6500
+Wire Wire Line
+	2800 6400 2800 6500
+Wire Wire Line
+	2600 6500 2700 6500
+Wire Wire Line
+	2700 5650 2600 5650
+Wire Wire Line
+	2600 5650 2600 5700
+Wire Wire Line
+	2700 5600 2700 5650
+Wire Wire Line
+	2700 5650 2800 5650
+Wire Wire Line
+	2800 5650 2800 5700
+Connection ~ 2700 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5C8DC19A
+P 2700 6600
+AR Path="/5C8DC19A" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC19A" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 2700 6350 50  0001 C CNN
+F 1 "GND" H 2705 6427 50  0000 C CNN
+F 2 "" H 2700 6600 50  0001 C CNN
+F 3 "" H 2700 6600 50  0001 C CNN
+	1    2700 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 6600 2700 6500
+Connection ~ 2700 6500
+Wire Wire Line
+	2700 6500 2800 6500
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8DC1A3
+P 2700 5250
+AR Path="/5C8DC1A3" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1A3" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 2700 5100 50  0001 C CNN
+F 1 "VCC" H 2717 5423 50  0000 C CNN
+F 2 "" H 2700 5250 50  0001 C CNN
+F 3 "" H 2700 5250 50  0001 C CNN
+	1    2700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5250 2700 5300
+$Comp
+L Device:LED D?
+U 1 1 5C8DC1AA
+P 3100 5850
+AR Path="/5C8DC1AA" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1AA" Ref="D841"  Part="1" 
+F 0 "D841" H 3250 5750 50  0000 R CNN
+F 1 "LED" V 3047 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3100 5850 50  0001 C CNN
+F 3 "~" H 3100 5850 50  0001 C CNN
+	1    3100 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC1B0
+P 3100 6250
+AR Path="/5C8DC1B0" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1B0" Ref="D842"  Part="1" 
+F 0 "D842" H 3250 6150 50  0000 R CNN
+F 1 "LED" V 3047 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3100 6250 50  0001 C CNN
+F 3 "~" H 3100 6250 50  0001 C CNN
+	1    3100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8DC1B6
+P 3200 5450
+AR Path="/5C8DC1B6" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1B6" Ref="R841"  Part="1" 
+F 0 "R841" H 3270 5496 50  0000 L CNN
+F 1 "120R" H 3270 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3130 5450 50  0001 C CNN
+F 3 "~" H 3200 5450 50  0001 C CNN
+	1    3200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC1BC
+P 3300 5850
+AR Path="/5C8DC1BC" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1BC" Ref="D843"  Part="1" 
+F 0 "D843" H 3450 5750 50  0000 R CNN
+F 1 "LED" V 3247 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3300 5850 50  0001 C CNN
+F 3 "~" H 3300 5850 50  0001 C CNN
+	1    3300 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC1C2
+P 3300 6250
+AR Path="/5C8DC1C2" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1C2" Ref="D844"  Part="1" 
+F 0 "D844" H 3450 6150 50  0000 R CNN
+F 1 "LED" V 3247 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3300 6250 50  0001 C CNN
+F 3 "~" H 3300 6250 50  0001 C CNN
+	1    3300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 6000 3100 6100
+Wire Wire Line
+	3300 6000 3300 6100
+Wire Wire Line
+	3100 6400 3100 6500
+Wire Wire Line
+	3300 6400 3300 6500
+Wire Wire Line
+	3100 6500 3200 6500
+Wire Wire Line
+	3200 5650 3100 5650
+Wire Wire Line
+	3100 5650 3100 5700
+Wire Wire Line
+	3200 5600 3200 5650
+Wire Wire Line
+	3200 5650 3300 5650
+Wire Wire Line
+	3300 5650 3300 5700
+Connection ~ 3200 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5C8DC1D3
+P 3200 6600
+AR Path="/5C8DC1D3" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1D3" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 3200 6350 50  0001 C CNN
+F 1 "GND" H 3205 6427 50  0000 C CNN
+F 2 "" H 3200 6600 50  0001 C CNN
+F 3 "" H 3200 6600 50  0001 C CNN
+	1    3200 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6600 3200 6500
+Connection ~ 3200 6500
+Wire Wire Line
+	3200 6500 3300 6500
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8DC1DC
+P 3200 5250
+AR Path="/5C8DC1DC" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1DC" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 3200 5100 50  0001 C CNN
+F 1 "VCC" H 3217 5423 50  0000 C CNN
+F 2 "" H 3200 5250 50  0001 C CNN
+F 3 "" H 3200 5250 50  0001 C CNN
+	1    3200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5250 3200 5300
+$Comp
+L Device:LED D?
+U 1 1 5C8DC1E3
+P 3600 5850
+AR Path="/5C8DC1E3" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1E3" Ref="D851"  Part="1" 
+F 0 "D851" H 3750 5750 50  0000 R CNN
+F 1 "LED" V 3547 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3600 5850 50  0001 C CNN
+F 3 "~" H 3600 5850 50  0001 C CNN
+	1    3600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC1E9
+P 3600 6250
+AR Path="/5C8DC1E9" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1E9" Ref="D852"  Part="1" 
+F 0 "D852" H 3750 6150 50  0000 R CNN
+F 1 "LED" V 3547 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3600 6250 50  0001 C CNN
+F 3 "~" H 3600 6250 50  0001 C CNN
+	1    3600 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8DC1EF
+P 3700 5450
+AR Path="/5C8DC1EF" Ref="R?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1EF" Ref="R851"  Part="1" 
+F 0 "R851" H 3770 5496 50  0000 L CNN
+F 1 "120R" H 3770 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3630 5450 50  0001 C CNN
+F 3 "~" H 3700 5450 50  0001 C CNN
+	1    3700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC1F5
+P 3800 5850
+AR Path="/5C8DC1F5" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1F5" Ref="D853"  Part="1" 
+F 0 "D853" H 3950 5750 50  0000 R CNN
+F 1 "LED" V 3747 5732 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3800 5850 50  0001 C CNN
+F 3 "~" H 3800 5850 50  0001 C CNN
+	1    3800 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8DC1FB
+P 3800 6250
+AR Path="/5C8DC1FB" Ref="D?"  Part="1" 
+AR Path="/5C8B9530/5C8DC1FB" Ref="D854"  Part="1" 
+F 0 "D854" H 3950 6150 50  0000 R CNN
+F 1 "LED" V 3747 6132 50  0001 R CNN
+F 2 "user:LED_D1.8mm_W3.3mm_H2.4mm_user" H 3800 6250 50  0001 C CNN
+F 3 "~" H 3800 6250 50  0001 C CNN
+	1    3800 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 6000 3600 6100
+Wire Wire Line
+	3800 6000 3800 6100
+Wire Wire Line
+	3600 6400 3600 6500
+Wire Wire Line
+	3800 6400 3800 6500
+Wire Wire Line
+	3600 6500 3700 6500
+Wire Wire Line
+	3700 5650 3600 5650
+Wire Wire Line
+	3600 5650 3600 5700
+Wire Wire Line
+	3700 5600 3700 5650
+Wire Wire Line
+	3700 5650 3800 5650
+Wire Wire Line
+	3800 5650 3800 5700
+Connection ~ 3700 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5C8DC20C
+P 3700 6600
+AR Path="/5C8DC20C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC20C" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 3700 6350 50  0001 C CNN
+F 1 "GND" H 3705 6427 50  0000 C CNN
+F 2 "" H 3700 6600 50  0001 C CNN
+F 3 "" H 3700 6600 50  0001 C CNN
+	1    3700 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6600 3700 6500
+Connection ~ 3700 6500
+Wire Wire Line
+	3700 6500 3800 6500
+$Comp
+L power:VCC #PWR?
+U 1 1 5C8DC215
+P 3700 5250
+AR Path="/5C8DC215" Ref="#PWR?"  Part="1" 
+AR Path="/5C8B9530/5C8DC215" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 3700 5100 50  0001 C CNN
+F 1 "VCC" H 3717 5423 50  0000 C CNN
+F 2 "" H 3700 5250 50  0001 C CNN
+F 3 "" H 3700 5250 50  0001 C CNN
+	1    3700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5250 3700 5300
+$EndSCHEMATC
